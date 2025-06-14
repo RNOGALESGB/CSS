@@ -1,0 +1,32 @@
+h1{
+    color: chocolate;
+    background-color: mediumspringgreen;
+}
+
+h2{
+    color: darkblue;
+}
+h3{
+    color: darkgreen;
+}
+h4{
+    color: darkred;
+}
+h5{
+    color: darkorange;
+}
+
+#parrafo{
+    color: darkslateblue;
+    background-color: lightgray;
+}
+
+.morados{
+    color: darkviolet;
+    background-color: lightpink;
+}
+
+#introduccion{
+    color: darkcyan;
+    background-color: lightyellow;
+}

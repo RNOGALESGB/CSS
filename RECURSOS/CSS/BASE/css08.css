@@ -1,0 +1,31 @@
+#titulo{
+    color: green;
+}
+
+#titulo{
+    color: red;
+}
+
+.titulo{
+    color: blue;
+}
+
+h1{
+    color: purple;
+}
+
+body .titulo{
+    color: orange;
+}
+
+body #titulo{
+    color: yellow;
+}
+/* 
+.titulo{
+    color: pink !important;
+}
+
+#titulo{
+    color: black !important;
+} */
