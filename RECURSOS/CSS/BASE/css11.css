@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+.contenedor {
+    width: 80%;
+    height: 80%;
+    /* width: 100px;
+    height: 150px; */
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    padding: 30px 20px 10px 5px;
+    padding-top: 15px;
+    border-style: ;
+    border: 15px dashed black;
+    border-top: 10px solid red;
+}

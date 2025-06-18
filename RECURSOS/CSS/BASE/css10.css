@@ -1,0 +1,10 @@
+.contenedor {
+    background-color: yellow;
+    width: 80%;
+    width: 70%;
+    height: 200px;
+    border: 2px solid black;
+    overflow:visible;
+    max-width: 600px;
+    min-width: 300px;
+}
