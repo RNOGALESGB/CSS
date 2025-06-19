@@ -1,0 +1,23 @@
+.nombre{
+    background-color: salmon;
+    color: white;
+}
+
+.codigo{
+    background-color: #FA8072;
+    color: green;
+}
+
+.rgb{
+    background-color: rgb(250, 128, 114);
+    color: chocolate;
+}
+
+.rgba{
+    background-color: rgb(250, 128, 114,0.5);
+}
+
+.hsl{
+    background-color: hsl(6, 79%, 66%);
+    color: blueviolet;
+}
