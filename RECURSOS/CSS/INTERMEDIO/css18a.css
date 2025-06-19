@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 300vh;
+}
+
+.contenedor {
+    width: 70%;
+    height: 500px;
+    border: 2px solid purple;
+    margin: 50px auto;
+    position: relative;
+}
+
+.posicion {
+    width: 150px;
+    height: 100px;
+    font-size: 1.3rem;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+}
+
+.estatico{
+    background-color: midnightblue;
+    /* position: static;  */
+}
+
+.relativo{
+    background-color: tomato;
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
+
+.absoluto{
+    background-color: purple;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+}
+
+.fijo {
+    background-color: royalblue;
+    position: fixed;
+    top: 700px;
+    left: 200px;
+}
+

@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 210%;
+    height: 400vh;
+    background-color: lightblue;
+    color: coral;
+    /* margin: 20px auto; */
+}
+
+.sticky {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    position: sticky;
+    top: 50px;
+    bottom: 150px;
+}
+
+.contenedor {
+    background-color: aqua;
+    width: 400px;
+    height: 600px;
+    margin-left: 100px;
+    padding: 20px;
+}
+
+.otro{
+    background-color: coral;
+    width: 100px;
+    height: 100px;
+    position: sticky;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 200px;
+}
