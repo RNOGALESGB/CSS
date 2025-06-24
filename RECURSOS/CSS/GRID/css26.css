@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid{
+    display: grid;
+    width: 50%;
+    border: 4px solid brown;
+    margin: 20px auto;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+        "elemento01 elemento01 elemento02 elemento02 elemento02"
+        "elemento03 elemento03 elemento02 elemento02 elemento02"
+        "elemento03 elemento03 elemento04 elemento05 elemento05";
+}
+
+.figura{
+    padding: 5px;
+    margin: 5px;
+}
+.elemento{
+    display: block;
+    width: 100%;
+    height: 100%;
+    /* margin: 0 auto; */
+    object-fit: contain;
+    border: 1px solid black;
+}
+
+.elemento01 {
+    grid-area: elemento01;
+}
+.elemento02 {
+    grid-area: elemento02;
+}
+
+.elemento03 {
+    grid-area: elemento03;
+}
+
+.elemento04 {
+    grid-area: elemento04;
+}
+
+.elemento05 {
+    grid-area: elemento05;
+}
+
+.ielemento01{
+    background-color: red;
+}
+
+.ielemento02{
+    background-color: blue;
+}
+
+.ielemento03{
+    background-color: green;
+}
+
+.ielemento04{
+    background-color: lightcoral;
+    grid-column: 2/3;
+    grid-row: 1/1;
+}
+.ielemento05{
+    background-color: coral;
+}
+.ielemento06{
+    background-color: gold;
+}
+.ielemento07{
+    background-color: lime;
+}
+.ielemento08{
+    background-color:  blueviolet;
+}
+.ielemento09{
+    background-color: gray;
+}
+.ielemento10{
+    background-color: brown;
+}
+
+
+@media (max-width: 600px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-areas: 
+        "elemento01 elemento01"
+        "elemento02 elemento02"
+        "elemento03 elemento03"
+        "elemento04 elemento04"
+        "elemento05 elemento05";
+    }
+}
