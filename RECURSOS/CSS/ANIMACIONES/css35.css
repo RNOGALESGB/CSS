@@ -32,10 +32,6 @@
     alternate-reverse: Alterna reversa/normal
   */
   /* animation-delay: 3s; */
-  /* animation-fill-mode: both; */
-
-  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
-  /* animation: infinite ease-in alternate 2s both 2s mover ; */
 }
 
 .element:hover{
